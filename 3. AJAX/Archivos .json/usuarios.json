@@ -1,0 +1,18 @@
+{
+  "usuarios": [
+    {
+      "id": 5,
+      "nombre": "Eva",
+      "apellidos": "Vega Leirós",
+      "nif": "55555555-E",
+      "email": "evavl@gmail.com"
+    },
+    {
+      "nombre": "Ricardo",
+      "apellidos": "Gómez",
+      "nif": "45872349-M",
+      "email": "ricardo@mail.com",
+      "id": 6
+    }
+  ]
+}

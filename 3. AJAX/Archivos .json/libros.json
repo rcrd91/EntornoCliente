@@ -1,0 +1,16 @@
+{
+  "libros": [
+    {
+      "titulo": "El Señor de los Anillos",
+      "autor": "Tolkien",
+      "isbn": "9435809358",
+      "id": 1
+    },
+    {
+      "titulo": "Harry Potter",
+      "autor": "JK Rowling",
+      "isbn": "9435809345",
+      "id": 2
+    }
+  ]
+}

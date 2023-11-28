@@ -1,0 +1,3 @@
+Terminal:
+
+node_modules/.bin/json-server -w archivo.json

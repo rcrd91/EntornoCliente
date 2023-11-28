@@ -1,0 +1,16 @@
+{
+    "datos":[
+        {
+            "id":1,
+            "nif": "12345678-Z",
+            "nombre": "Juan",
+            "sexo": "H",
+            "direccion": "C/ Sin Destino",
+            "fnac": "1960-04-14",
+            "estudios": "2",
+            "telefono": "986345678",
+            "email": "juan@gmail.com",
+            "aficiones": "Cine;Lectura"
+        }
+    ]
+}

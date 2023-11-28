@@ -1,0 +1,14 @@
+{
+  "datos": [
+    {
+      "id": 1,
+      "nif":"33457644-D",
+      "nombre": "Juan",
+      "apellidos": "Gómez García",
+      "domicilio": "C/ Sin Destino",
+      "poblacion": "Vedra",
+      "provincia": "A Coruña",
+      "email": "juan@mail.com"
+    }
+  ]
+}
