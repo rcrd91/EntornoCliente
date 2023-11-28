@@ -1,0 +1,92 @@
+/* Estilos generales */
+
+*, ::after, ::before { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 14px; /* rem parte del root */
+    --ff-primaria: 'Roboto', sans-serif;
+    --ff-secundaria: 'OPen Sans', sans-serif;
+    /* Colores */
+    --color-fondo-pagina: hsl(210, 36%, 96%);
+    --color-letra-1: hsl(209, 61%, 16%);
+    --color-letra-2: hsl(210, 22%, 49%);
+    --color-letra-3: #222;
+    --color-letra-4: #fff;
+    /* Espaciado */
+    --spacing: .1rem;
+    /* Radio */
+    --radius: .25rem;
+
+}
+
+body {
+    font-family: var(--ff-secundaria);
+    background-color: hsl(210, 36%, 96%);
+    color: var(--color-letra-1); 
+    line-height: 1.5; /* distancia entre línes */
+    font-size: .875rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h1, h2, h3, h4 {
+    text-transform: capitalize;
+    line-height: 1.25;
+    margin-bottom: 0.75rem;
+    font-family: var(--ff-primaria);
+}
+
+main {
+    margin: 0 auto;
+    width: auto;
+    height: auto;
+    max-height: 100vh;
+    text-align: center;
+    position: absolute;
+    top: calc((100% - 269px) / 2);
+    left: calc((100% - 450px) / 2);
+}
+
+.tiempo {
+    font-size: 6rem;
+    font-weight: bold;
+}
+
+
+/* Estilos de los botones */
+
+.btn {
+    text-transform: uppercase;
+    background: transparent;
+    color: var(--color-letra-3);
+    padding: .375rem .75rem;
+    letter-spacing: .1rem;
+    display: inline-block;
+    font-size: .875rem;
+    border: 2px solid var(--color-letra-3);
+    cursor: pointer;
+    border-radius: var(--radius) ;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    margin: .5rem;
+    transition: all .3s linear;
+}
+
+.btn:hover {
+    color: var(--color-letra-4);
+    background-color: var(--color-letra-3);
+}
+
+
+/* Estilos para pantallas desde 800px */
+
+@media screen and (min-width: 800px) {
+    h1 {
+        font-size: 4rem;
+    }
+}
